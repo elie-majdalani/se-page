@@ -1,4 +1,9 @@
-.menue-wrapper{
+body{
+    margin: 0;
+}
+.menu-wrapper{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('file:///C:/Users/Admin/Desktop/se-page/assets/menue.jpg');
+    background-blend-mode: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     letter-spacing: 0em;
@@ -8,17 +13,22 @@
     line-height: 1.4em;
     font-size: 1rem;
     line-height: 1.4;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.menue-top{
+
+.menu-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
     align-content: center;
     flex-direction: row;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+    padding-top:1.5%
 }
-.menue-buttons {
+
+.menu-buttons {
     flex-grow: 1;
     padding-left: 5%;
     width: fit-content;
@@ -29,7 +39,7 @@
     flex-direction: row;
 }
 
-.menue-buttons div{
+.menu-buttons div{
     margin-left: 3%;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,11 +48,13 @@
     text-transform: none;
     line-height: 2em;
 }
-.menue-buttons a{
+
+.menu-buttons a{
     text-decoration: none;
+    color: #fff;
 }
 
-.menue-buttons .apply{
+.menu-buttons .apply{
     background-color: #0d0;
     border-radius: 5px;
     padding: 3px 20px;
@@ -55,9 +67,10 @@
     height: 80px;
 }
 
-.menue-logo{
+.menu-logo{
     justify-content: flex-start;
 }
+
 .title h1{
     font-size: calc((3.5 - 1) * 1.2vw + 1rem);
     display: block;
@@ -69,20 +82,43 @@
     margin: 2rem 0;
     color: #fff;
 }
+
 .title p{
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
     color: #fff;
 }
 
 .button{
-    background-color: #0d0;
-    padding: 3px 20px;
     font-size: .9rem;
-    font-weight: bolder;
-    color: #fff;
-    border-color: #18ea19;
     border-radius: 0.4rem;
     font-weight: 700;
     font-style: normal;
     text-transform: capitalize;
+    
+}
+.button a{
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    line-height: normal;
+    padding: 0.8rem 1.336rem;
+    color: #fff;
+    background-color: #18ea19;
+    border-color: #18ea19;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    border-radius: 6px;
+}
+.menu-bottom{
+    max-width: 50%;
+    display: inline-block;
+    padding-top: 15%;   
+    display: flex;
+    flex-direction: column;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+    padding-bottom: 10%;
+    justify-content: flex-start;
 }
