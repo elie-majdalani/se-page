@@ -324,3 +324,12 @@ body{
 .partner-pic img{
     width: 100%;
 }
+.section7{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.section7-content{
+     width: 50%;
+} 
+
