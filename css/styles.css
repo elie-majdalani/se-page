@@ -437,3 +437,30 @@ body{
 .seperation hr{
     width: 85%;
 }
+.section11 strong{
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+}
+.section11 h3{
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+    font-weight: normal;
+}
+.section11-btn button{
+    padding: 15px;
+    background: #000;
+    color: #fff;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem) !important;
+    border-radius: 8px;
+}
+.section11-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.section11{
+    background-color: lightgray;
+}
+.section11-content{
+    padding-top: 2.5%;
+    padding-bottom: 7%;
+}
