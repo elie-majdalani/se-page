@@ -381,3 +381,22 @@ body{
     height: 100%;
     width: 100%;
 }
+.section9-content{
+    margin-top: 3%;
+}
+.section9-title strong{
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+} 
+.section9-img{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.section9-img img{
+    height: 100%;
+    width: 100%;
+}
